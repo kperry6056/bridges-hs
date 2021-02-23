@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRIDGES High School</title>
+    <!--Imports-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.svg" alt="">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Overview</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Assignments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="ap-cs-a-assignments.html">AP Computer Science A</a></li>
+                        <li><a class="dropdown-item" href="adv-topics-assignments.html">Advanced Topics</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="banner-bg">
+        <div class="banner-text">
+            <h1>BRIDGES for High School</h1>
+            <button type="button" class="btn btn-light">Get started</button>
+        </div>
+    </div>
+    <main class="container">
+        <h2 id="slogan">Engaging Java learners with visualizations and real-world data</h2>
+
+        <p id="mission-statement">BRIDGES empowers educators to teach computer science in meaningful ways. Through easy-to-use interfaces to
+            real-world data, students can create projects applicable to real-life in their first year of computer
+            science. Instructional materials tailored to the high school classroom make implementation seemless. </p>
+
+        <h3>Courses</h3>
+
+        <div class="card course-card link" onclick='location.href = "ap-cs-a-assignments.html";'>
+            <div class="course-card-thumbnail">
+                    <img src="images/school.svg" alt="">
+                </div>
+                    <div class="course card-body">
+                        <h4 class="course card-title">AP Computer Science A</h4>
+                        <p class="course card-text">The <b>AP Computer Science A</b> section of BRIDGES consists of
+                            instructional materials compatible the with College Board curriculum.</p>
+                    </div>
+                </div>
+        <div class="card course-card link" onclick='location.href = "adv-topics-assignments.html";'>
+            <div class="course-card-thumbnail">
+                    <img src="images/university.svg" class="img-fluid" alt="">
+                </div>
+                    <div class="course-card-body card-body">
+                        <h4 class="course-card-title card-title">Advanced Topics</h4>
+                        <p class="course-card-text card-text">The <b>Advanced Topics</b> section of BRIDGES consists of
+                            instructional materials beyond the scope of the College Board curriculum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <hr>
+            <p>All rights reserved, Copyright @2018,2019,2020. The University of North Carolina at Charlotte.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
