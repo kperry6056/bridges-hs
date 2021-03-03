@@ -1,26 +1,27 @@
 body, html {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: bold;
+font-family: 'JetBrains Mono', monospace;
+font-weight: bold;
 }
 
+/* Navbar styling */
 .navbar-custom {
-  background-color: white;
+background-color: white;
 }
 
 .navbar-custom .nav-link {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;  
-  color: black; 
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;  
+color: black; 
 }
 
 .nav-link:hover, .dropdown-item:hover {
@@ -28,168 +29,182 @@ text-decoration: none;
 }
 
 .navbar-brand img {
-    width: 90px;
+  width: 90px;
 }
 
+/* Landing page top third styling */
 .banner-bg {
-    background-color: black;
-    height: 35%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
+  background-color: black;
+  height: 35%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
-  
+
 .banner-text {
-    text-align: center;
-    position: relative;
-    top: 40%;
-    width: 100%;
-    text-shadow: 0.1em 0.1em 0.1em rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+  top: 40%;
+  width: 100%;
+  text-shadow: 0.1em 0.1em 0.1em rgba(0,0,0,0.2);
 }
-  
+
 .banner-text h1 {
-    font-weight: 600;
-    color: white;
-    font-size: 2.2em;
-    letter-spacing: 0.1em;
+  font-weight: 600;
+  color: white;
+  font-size: 2.2em;
+  letter-spacing: 0.1em;
 }
 
 .container {
-  padding: 0px 24px;
+padding: 0px 24px;
 }
 
+/* Content styling after banner */
 #slogan {
-  text-align: center;
-  margin: 3rem 0;
+text-align: center;
+margin: 3rem 0;
 }
 
 #mission-statement {
-  text-align: center;
+text-align: center;
 }
 
+/* Card styling on landing page for courses */
 .course-card {
-  margin: 24px 0px;
-  display: grid;
-  grid-template-columns: 15% 85%;
-  grid-template-rows: 6em;
+margin: 24px 0px;
+display: grid;
+grid-template-columns: 15% 85%;
+grid-template-rows: 6em;
 }
 
 .course-card > .card-thumbnail > img {
-  display: block;
-  height: 100%;
-  margin: auto;
+display: block;
+height: 100%;
+margin: auto;
 }
 
+/* Asset styling for bottom of every page */
 footer {
-  margin-top: 10em;
-  background-color: #212121;
-  padding: 48px 24px;
+margin-top: 10em;
+background-color: #212121;
+padding: 48px 24px;
 }
 
 footer div.container {
-  color: white;
+color: white;
 }
 
 footer div.container hr{
-  color: white;
+color: white;
 }
 
+/* Card styling in adv-topics and ap-cs-a */
 .assignment-card {
-  margin: 24px 0px;
-  display: grid;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 9em;
+margin: 24px 0px;
+display: grid;
+grid-template-columns: 25% 75%;
+grid-template-rows: 9em;
 }
 
 .assignment-card > .card-thumbnail > img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
+object-fit: cover;
+height: 100%;
+width: 100%;
 }
+
 
 .card.link:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
-  cursor: pointer;
+box-shadow: 0 0 11px rgba(33,33,33,.2); 
+cursor: pointer;
 }
 
+/* Link styling */
 a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 
+/* Temporary styling for landing page and assignment tags */
+/* UPDATE THIS */
 .btn {
-  border-radius: 1em;
-  margin: 0em .5em;
-  color: black;
+border-radius: 1em;
+margin: 0em .5em;
+color: black;
 }
 
+/* Styling for titlebar used in content pages */
 div.titlebar-container {
-  padding: 0;
-  background-color: #eee;
-  border-bottom: 1px solid #cdd5d7;
-  border-top: 1px solid #cdd5d7;
+padding: 0;
+background-color: #eee;
+border-bottom: 1px solid #cdd5d7;
+border-top: 1px solid #cdd5d7;
 
 }
 
 .titlebar-container h1 {
-  margin: 0 auto;
-  padding: 24px;
+margin: 0 auto;
+padding: 24px;
 }
 
+/* Styling for assignment description pages */
 .assignment-container {
-  display: grid;
-  grid-template-columns: 25% 75%;
+display: grid;
+grid-template-columns: 25% 75%;
 }
 
 .toc header h2 {
-  font-size: 1.5rem;
+font-size: 1.5rem;
 }
 
 .toc.entries {
-  list-style-type:none;
-  padding-left: 0;
+list-style-type:none;
+padding-left: 0;
 }
 
 .assignment-container {
-  margin-top: 1.5rem;
+margin-top: 1.5rem;
 }
 
 article.assignment img {
-  width: 100%;
-  display: block;
-  border-radius: .5em;
+width: 100%;
+display: block;
+border-radius: .5em;
 }
 
 figure {
-  width: 75%;
-  margin: 0em auto;
+width: 75%;
+margin: 0em auto;
 }   
 
+/* Styling of label for figures in assignment description pages */
 /* .imgLabel {
-  float: left;
-  position: relative;
-  transform: translate(0%, 0%);
+float: left;
+position: relative;
+transform: translate(0%, 0%);
 } */
 
 figcaption {
-  text-align: left;
-  font-size: .7em;
-  margin-bottom: 16px;
+text-align: left;
+font-size: .7em;
+margin-bottom: 16px;
 }
 
+/* Styling for mountain-paths */
+/* Styling for greedy algorithm diagram */
 .greedy-diagram {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(min-content, 200px));
-  justify-content: center;
-  column-gap: 20px;
+display: grid;
+grid-template-columns: repeat(4, minmax(min-content, 200px));
+justify-content: center;
+column-gap: 20px;
 }
 
 .greedy-diagram > img {
-  width:100%;
-  height: 100%;
+width:100%;
+height: 100%;
 }
 
 
