@@ -170,13 +170,18 @@ margin-top: 1.5rem;
 }
 
 article.assignment img {
-width: 100%;
+margin: 0 auto;
+max-width: 100%;
+max-height: 22em;
 display: block;
 border-radius: .5em;
 }
 
+/* display: table makes figcaption left aligned of image center aligned */
 figure {
-width: 75%;
+display: table;
+max-width: 75%;
+padding: 0 auto;
 margin: 0em auto;
 }   
 
