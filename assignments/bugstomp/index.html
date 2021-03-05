@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRIDGES High School</title>
+    <!--Imports-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="../../styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../images/logo.svg" alt="BRIDGES Logo">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Overview</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Assignments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../../ap-cs-a/">AP Computer Science A</a></li>
+                        <li><a class="dropdown-item" href="../../adv-topics/">Advanced Topics</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Titlebar -->
+    <div class="titlebar-container">
+        <!-- ASSIGNMENT TITLE GOES HERE -->
+        <h1 class="title container">Assignment Title</h1>
+    </div>
+
+    <!-- Main content -->
+    <main class="container assignment-container">
+        <section class="toc">
+            <header>
+                <h2>Tables of contents</h2>
+            </header>
+            <ul class="toc entries">
+                <li><a href="#description">Description</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#intended-learning-outcomes">Intended learning outcomes</a></li>
+                <li><a href="#instructional-materials">Instructional materials</a></li>
+                <li><a href="#documentation" id="documentation-link">Documentation</a></li>
+            </ul>
+        </section>
+        <article class="assignment">
+            <h2 id="description">Description</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos error neque, nostrum ipsum odio quos qui natus ex voluptatum repellat hic quidem itaque asperiores minima perspiciatis distinctio inventore aperiam molestiae?
+            </p>
+            <figure>
+
+                <!-- EXAMPLE OUTPUT IMAGE GOES HERE -->
+                <img src="" alt="Example Output">
+                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+
+            <h2 id="topics">Topics</h2>
+            <ul>
+                <!-- TOPICS GO HERE -->
+                <li>Example Topic</li>
+            </ul>
+
+            <h2 id="intended-learning-outcomes">Intended learning outcomes</h2>
+            <p>By the end of this project, students will be able to…</p>
+            <ul>
+                <!-- ILOs GO HERE -->
+                <li><strong>VERB: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione rem dicta
+                    necessitatibus, in possimus esse eius assumenda sint, dignissimos illum distinctio a! Commodi, neque
+                    esse. Quo nam architecto eveniet nesciunt! </li>
+            </ul>
+
+            <h2 id="instructional-materials">Instructional materials</h2>
+            <!-- INSTRUCTIONAL MATERIALS GO HERE -->
+            <h3>Student</h3>
+            <ul>
+                <li>Worksheet</li>
+            </ul>
+            <h3>Teacher</h3>
+            <ul>
+                <li>Walkthrough</li>
+                <li>Answer Key</li>
+                <li>Rubric</li>
+            </ul>
+            <h3>Resources</h3>
+            <ul>
+                <li>Scaffold Files
+                    <ul>
+                        <li>Scaffold</li>
+                        <li>scaffold.java</li>
+                    </ul>
+                </li>
+                <li>Solution Files
+                    <ul>
+                        <li>Solution</li>
+                        <li>solution.java</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="documentation">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseDocumentation" aria-expanded="false"
+                        aria-controls="collapseDocumentation">
+                        Documentation
+                    </button>
+                </h2>
+                <div id="collapseDocumentation" class="accordion-collapse collapse" aria-labelledby="documentation">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><a
+                                    href="http://bridgesuncc.github.io/doc/java-api/current/html/classbridges_1_1base_1_1_color_grid.html">ColorGrid
+                                    Documentation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <hr>
+            <p>All rights reserved, Copyright @2018,2019,2020. The University of North Carolina at Charlotte.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="../../scripts/assignment.js"></script>
+
+</body>
+
+</html>
