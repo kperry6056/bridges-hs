@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRIDGES High School</title>
+    <!--Imports-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="../../styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../images/logo.svg" alt="BRIDGES Logo">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Overview</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Assignments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../../ap-cs-a/">AP Computer Science A</a></li>
+                        <li><a class="dropdown-item" href="../../adv-topics/">Advanced Topics</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="titlebar-container">
+        <h1 class="title container">Overview</h1>
+    </div>
+
+    <main class="container assignment-container">
+        <section class="toc">
+            <header>
+                <h2>Tables of contents</h2>
+            </header>
+            <ul class="toc entries">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#assignments">Assignments</a></li>
+            </ul>
+        </section>
+        <article class="assignment">
+            <h2 id="introduction">Introduction</h2>
+            <p>
+                Welcome to the high school section of the NSF Bridges project at UNCC! This website is intended to help
+                high school teachers implement Bridges assignments in their classrooms. This article provides a concise
+                overview and explanation of the website.
+            </p>
+
+            <p>
+                If you have not already set up Bridges with your IDE of choice, a tutorial is available
+                <a href="http://bridgesuncc.github.io/bridges_setup.html">here</a>.
+            </p>
+
+            <div>
+                <p>
+                    Note: The high school section of Bridges only uses the Java programming language.
+                </p>
+            </div>
+
+            <h2 id="courses">Courses</h2>
+
+            <p>
+                This website provides instructional materials for the computer sciences courses AP CS A and Advanced
+                Topics.
+            </p>
+            <ul>
+                <li><strong>AP CS A</strong>: This course consists of assignments corresponding to the AP CS A
+                    curriculum as outlined in the <a
+                        href="https://apcentral.collegeboard.org/pdf/ap-computer-science-a-course-and-exam-description.pdf?course=ap-computer-science-a">AP
+                        Computer Science A Course Description.</a></li>
+                <li><strong>Advanced Topics</strong>: This course consists of assignments corresponding to curriculum
+                    beyond AP CS A. Many of
+                    these topics are also present in first or second year college computer science courses.</li>
+            </ul>
+
+            <p>
+                When viewing either course, every assignment is tagged with the topic(s) it covers. In addition, a more
+                detailed list of topics can be found within each assignment page.</p>
+
+            <h2 id="assignments">Assignments</h2>
+
+            <p>
+                Project-based learning is the foundation of Bridges. Each assignment is designed to teach computer
+                science concepts. An assignment page has the following structure:
+            </p>
+            <ul>
+                <li>Description</li>
+                <li>(Optional) Details / concept explanation</li>
+                <li>Topics</li>
+                <li>Intended learning outcomes</li>
+                <li>Instructional materials</li>
+                <li>(Optional) Additional information</li>
+                <li>Documentation</li>
+            </ul>
+
+            <h3>Description</h3>
+            <p>
+                This provides a basic overview of the project. Think of the description as a “pitch” for you to use the
+                assignment.
+            </p>
+
+            <h3>(Optional) Details / concept explanation</h3>
+            <p>
+                Some assignments require further information or explanation about a specific topic. This section is
+                optional, and most assignments do not include it.
+            </p>
+
+            <h3>Topics</h3>
+            <p>
+                This is a list of all the topics covered in the assignment. The tags found in the assignment list are
+                not
+                exhaustive, but the topics list is.
+            </p>
+
+            <h3>Intended learning outcomes</h3>
+            <p>
+                Each assignment has been designed with specific ILOs in mind. It is important to note that the ILOs are
+                written with the assumption that all instructional materials (see below) are used. So, if you adapt the
+                assignment, the ILOs may change.
+            </p>
+
+            <h3>Instructional materials</h3>
+            <p>
+                This is the most important part of the assignment page. The instructional materials consist of three
+                sections: student, teacher, and resources.
+            </p>
+
+            <h4>Student</h4>
+            <p>
+                Each assignment includes a student worksheet which consists of instructions, information, and questions
+                for students as they program. The worksheets enable students to work at their own pace, and the
+                questions help
+                you assess student understanding of concepts. Of course, you can adapt these worksheets to meet the
+                needs ofyour classroom.
+            </p>
+
+            <p>
+                Additionally, some assignments include test cases or example outputs to help students check their work.
+            </p>
+
+            <h4>Teacher</h4>
+            <p>
+                Each assignment includes answers keys for the student worksheet. Some of the more challenging assignments
+                also have a teacher walkthrough explaining the code and worksheet. Finally, most assignments include a
+                rubric which you can change if you wish.
+            </p>    
+            <h4>Resources</h4>
+            <p>
+                The resource section can vary significantly depending on the project, but it will always include solution
+                files and scaffold files. The scaffold is what you provide to students, and the solution is the finished
+                product. Scaffolds usually include directions or assistance that correspond to the student worksheet.
+            </p>
+
+            <p>
+                Additionally, the resources section sometimes includes data files, additional tutorials, and links embedded
+                in the student worksheet.
+            </p>
+
+            <h3>(Optional) Additional Information</h3>
+            <p>This section includes information such as the source of the project if it is adapted from another resource.</p>
+
+            <h3>Documentation</h3>
+            <p>
+                The documentation section provides links to all the relevant classes of the assignment. It is typically
+                expected that reading documentation is necessary to complete the assignment.
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <hr>
+            <p>All rights reserved, Copyright @2018,2019,2020. The University of North Carolina at Charlotte.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="../../scripts/assignment.js"></script>
+
+</body>
+
+</html>
