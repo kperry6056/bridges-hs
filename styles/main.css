@@ -128,6 +128,14 @@ a:hover {
 text-decoration: underline;
 }
 
+a.btn:hover {
+  text-decoration: none;
+}
+
+a.btn {
+  text-shadow: none;
+}
+
 /* Temporary styling for landing page and assignment tags */
 /* UPDATE THIS */
 .btn {
