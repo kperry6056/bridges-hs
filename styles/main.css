@@ -158,6 +158,25 @@ margin: 0 auto;
 padding: 24px;
 }
 
+/* Styling for special div sections */
+.note {
+  background-color: #dcf4ff;
+  border-left: 6px solid #024e7a;
+  margin: 0 0 24px;
+  padding: 12px;
+}
+
+.note p:last-child, .warning p:last-child {
+  margin-bottom: 0;
+}
+
+.warning {
+  background-color: #ffdddc;
+  border-left: 6px solid #7a0602;
+  margin: 0 0 24px;
+  padding: 12px;
+}
+
 /* Styling for assignment description pages */
 .assignment-container {
 display: grid;
